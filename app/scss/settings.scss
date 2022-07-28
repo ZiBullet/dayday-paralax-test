@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Belleza;
+    src: url('../assets/fonts/Belleza-Regular.ttf');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Belleza;
+}
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+a, button {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
