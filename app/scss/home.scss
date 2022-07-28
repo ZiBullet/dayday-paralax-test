@@ -17,7 +17,7 @@ header {
         z-index: 2;
         padding: 30px 0;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         .header-logo {
             font-size: 60px;
@@ -41,8 +41,8 @@ header {
         border-radius: 14px;
         position: fixed;
         animation: header__visible .2s ease;
-        background-color: #fff;
-        backdrop-filter: blur(4px);
+        backdrop-filter: blur(6px);
+        background-color: rgba($color: #fff, $alpha: .3);
         a {
             color: #000;
         }
@@ -134,6 +134,16 @@ main {
         p {
             font-size: 24px;
             color: #fff;
+        }
+    }
+    .main-screen__conclusion {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1 {
+            font-size: 52px;
         }
     }
 }
